@@ -3,11 +3,6 @@ import java.util.*;
 record Supplies(int waterPerCup, int milkPerCup, int coffeeBeansPerCup, int price) {}
 public class CoffeeMachine {
 
-    /*
-    final static int WATER_PER_CUP        = 200;
-    final static int MILK_PER_CUP         = 50;
-    final static int COFFEE_BEANS_PER_CUP = 15;
-    */
     final static Supplies espresso = new Supplies(250, 0,16, 4);
     final static Supplies latte = new Supplies(350, 75, 20, 7);
     final static Supplies cappuccino = new Supplies(200, 100, 12, 6);
@@ -16,71 +11,28 @@ public class CoffeeMachine {
     static int actualCoffeeBeans    = 120;
     static int actualDisposableCups = 9;
     static int money                = 550;
+    static int cupsMade = 0;
 
     public static void main(String[] args) {
 
-//        Scanner scanner = new Scanner(System.in);
-
-
-//        MakeCoffee();
-//        IngredientCalculator(totalCups);
-
-        //<editor-fold desc="Stage 3/4 User request data and raise Calculate Service Method">
-
-        /*
-        System.out.println("Write how many ml of water the coffee machine has:");
-        int waterQuantity = scanner.nextInt();
-
-        System.out.println("Write how many ml of milk the coffee machine has:");
-        int milkQuantity = scanner.nextInt();
-
-        System.out.println("Write how many grams of coffee beans the coffee machine has:");
-        int gramsCoffeeBeans = scanner.nextInt();
-
-        System.out.println("Write how many cups of coffee you will need:");
-        int totalCups = scanner.nextInt();
-
-        CalculateServices(waterQuantity, milkQuantity, gramsCoffeeBeans, totalCups);
-        */
-        //</editor-fold>
-
         ActionCoffeeMachine();
-    }
-
-    private static void MakeCoffee() {
-        System.out.println("Starting to make a coffee");
-        System.out.println("Grinding coffee beans");
-        System.out.println("Boiling water");
-        System.out.println("Mixing boiled water with crushed coffee beans");
-        System.out.println("Pouring coffee into the cup");
-        System.out.println("Pouring some milk into the cup");
-        System.out.println("Coffee is ready!");
-    }
-
-    /*
-    private static void IngredientCalculator(int totalCups) {
-        System.out.printf("For %d cups of coffee you will need:%n", totalCups);
-        System.out.printf("%d ml of water%n", totalCups * WATER_PER_CUP);
-        System.out.printf("%d ml of milk%n", totalCups * MILK_PER_CUP);
-        System.out.printf("%d g of coffee beans", totalCups * COFFEE_BEANS_PER_CUP);
-
-    }
-    */
-
-    private static void CalculateServices(Supplies typeOfCoffee) {
     }
 
     private static void ActionCoffeeMachine() {
         Scanner scanner = new Scanner(System.in);
         String action = "";
         do {
-            System.out.println("Write action (buy, fill, take, remaining, exit):");
+            System.out.println("Write action (buy, fill, take, clean, remaining, exit):");
 
             action = scanner.nextLine();
 
             switch (action) {
                 case "buy":
-                    BuyCoffee();
+                    if (cupsMade < 11) {
+                        BuyCoffee();
+                    } else {
+                        System.out.println("I need cleaning!");
+                    }
                     break;
                 case "fill":
                     FillCoffeeMachine();
@@ -89,6 +41,10 @@ public class CoffeeMachine {
                     System.out.printf("I gave you $%d%n", money);
                     money = 0;
                     break;
+                    case "clean":
+                        System.out.println("I have been cleaned!");
+                        cupsMade = 0;
+                        break;
                 case "remaining":
                     MessageOutput();
                     break;
@@ -173,6 +129,7 @@ public class CoffeeMachine {
         if (isWater && isMilk && isCoffeeBeans && isCups) {
             System.out.println("I have enough resources, making you a coffee!");
             actualDisposableCups--;
+            cupsMade++;
         } else if (!isWater) {
             System.out.println("Sorry, not enough water!");
         } else if (!isMilk) {
