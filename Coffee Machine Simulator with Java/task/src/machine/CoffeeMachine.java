@@ -28,7 +28,7 @@ public class CoffeeMachine {
 
             switch (action) {
                 case "buy":
-                    if (cupsMade < 11) {
+                    if (cupsMade < 10) {
                         BuyCoffee();
                     } else {
                         System.out.println("I need cleaning!");
@@ -79,41 +79,41 @@ public class CoffeeMachine {
         switch (coffeeCups) {
             case "1":
                 isMilk = true;
-                if (actualWater > espresso.waterPerCup()) {
+                if (actualWater >= espresso.waterPerCup()) {
                     actualWater -= espresso.waterPerCup();
                     isWater = true;
                 }
-                if (actualCoffeeBeans > espresso.coffeeBeansPerCup() && isWater) {
+                if (actualCoffeeBeans >= espresso.coffeeBeansPerCup() && isWater) {
                     actualCoffeeBeans -= espresso.coffeeBeansPerCup();
                     money += 4;
                     isCoffeeBeans = true;
                 }
                 break;
             case "2":
-                if (actualWater > latte.waterPerCup()) {
+                if (actualWater >= latte.waterPerCup()) {
                     actualWater -= latte.waterPerCup();
                     isWater = true;
                 }
-                if (actualMilk > latte.milkPerCup() && isWater) {
+                if (actualMilk >= latte.milkPerCup() && isWater) {
                     actualMilk -= latte.milkPerCup();
                     isMilk = true;
                 }
-                if (actualCoffeeBeans > latte.coffeeBeansPerCup() && isMilk) {
+                if (actualCoffeeBeans >= latte.coffeeBeansPerCup() && isMilk) {
                     actualCoffeeBeans -= latte.coffeeBeansPerCup();
                     isCoffeeBeans = true;
                     money += 7;
                 }
                 break;
             case "3":
-                if (actualWater > cappuccino.waterPerCup()) {
+                if (actualWater >= cappuccino.waterPerCup()) {
                     actualWater -= cappuccino.waterPerCup();
                     isWater = true;
                 }
-                if (actualMilk > cappuccino.milkPerCup() && isWater) {
+                if (actualMilk >= cappuccino.milkPerCup() && isWater) {
                     actualMilk -= cappuccino.milkPerCup();
                     isMilk = true;
                 }
-                if (actualCoffeeBeans > cappuccino.coffeeBeansPerCup() && isMilk) {
+                if (actualCoffeeBeans >= cappuccino.coffeeBeansPerCup() && isMilk) {
                     actualCoffeeBeans -= cappuccino.coffeeBeansPerCup();
                     isCoffeeBeans = true;
                     money += 6;
