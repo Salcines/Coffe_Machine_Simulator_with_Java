@@ -611,6 +611,51 @@
       <module name="Cinema_Room_Manager.util" target="21" />
       <module name="Cinema_Room_Manager.util.main" target="21" />
       <module name="Cinema_Room_Manager.util.test" target="21" />
+      <module name="Coffe Machine Simulator with Java.Coffe_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task-build-classes-java" target="23" />
+      <module name="Coffe Machine Simulator with Java.Coffe_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task-build-classes-java.main" target="23" />
+      <module name="Coffe Machine Simulator with Java.Coffe_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task-build-classes-java.test" target="23" />
+      <module name="Coffe Machine Simulator with Java.Coffe_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task-build-generated-sources-annotationProcessor-java" target="23" />
+      <module name="Coffe Machine Simulator with Java.Coffe_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task-build-generated-sources-annotationProcessor-java.main" target="23" />
+      <module name="Coffe Machine Simulator with Java.Coffe_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task-build-generated-sources-annotationProcessor-java.test" target="23" />
+      <module name="Coffe Machine Simulator with Java.Coffe_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task-build-generated-sources-headers-java" target="23" />
+      <module name="Coffe Machine Simulator with Java.Coffe_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task-build-generated-sources-headers-java.main" target="23" />
+      <module name="Coffe Machine Simulator with Java.Coffe_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task-build-generated-sources-headers-java.test" target="23" />
+      <module name="Coffe Machine Simulator with Java.Coffe_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task-build-reports-tests" target="23" />
+      <module name="Coffe Machine Simulator with Java.Coffe_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task-build-reports-tests.main" target="23" />
+      <module name="Coffe Machine Simulator with Java.Coffe_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task-build-reports-tests.test" target="23" />
+      <module name="Coffe Machine Simulator with Java.Coffe_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task-build-test-results" target="23" />
+      <module name="Coffe Machine Simulator with Java.Coffe_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task-build-test-results.main" target="23" />
+      <module name="Coffe Machine Simulator with Java.Coffe_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task-build-test-results.test" target="23" />
+      <module name="Coffe Machine Simulator with Java.Coffe_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task-build-tmp" target="23" />
+      <module name="Coffe Machine Simulator with Java.Coffe_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task-build-tmp.main" target="23" />
+      <module name="Coffe Machine Simulator with Java.Coffe_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task-build-tmp.test" target="23" />
+      <module name="Coffe_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task" target="23" />
+      <module name="Coffe_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task.main" target="23" />
+      <module name="Coffe_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task.test" target="23" />
+      <module name="Coffe_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task__1_" target="23" />
+      <module name="Coffe_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task__1_.main" target="23" />
+      <module name="Coffe_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task__1_.test" target="23" />
+      <module name="Coffe_Machine_Simulator_with_Java.Topics-Fields_and_methods_in_enum-Robot_Control" target="23" />
+      <module name="Coffe_Machine_Simulator_with_Java.Topics-Fields_and_methods_in_enum-Robot_Control.main" target="23" />
+      <module name="Coffe_Machine_Simulator_with_Java.Topics-Fields_and_methods_in_enum-Robot_Control.test" target="23" />
+      <module name="Coffe_Machine_Simulator_with_Java.Topics__1_-Fields_and_methods_in_enum-Danger_levels" target="23" />
+      <module name="Coffe_Machine_Simulator_with_Java.Topics__1_-Fields_and_methods_in_enum-Danger_levels.main" target="23" />
+      <module name="Coffe_Machine_Simulator_with_Java.Topics__1_-Fields_and_methods_in_enum-Danger_levels.test" target="23" />
+      <module name="Coffe_Machine_Simulator_with_Java.Topics__1_-Fields_and_methods_in_enum-Java_Enum_Fields_and_Methods" target="23" />
+      <module name="Coffe_Machine_Simulator_with_Java.Topics__1_-Fields_and_methods_in_enum-Java_Enum_Fields_and_Methods.main" target="23" />
+      <module name="Coffe_Machine_Simulator_with_Java.Topics__1_-Fields_and_methods_in_enum-Java_Enum_Fields_and_Methods.test" target="23" />
+      <module name="Coffe_Machine_Simulator_with_Java.Topics__1_-Fields_and_methods_in_enum-Robot_control" target="23" />
+      <module name="Coffe_Machine_Simulator_with_Java.Topics__1_-Fields_and_methods_in_enum-Robot_control.main" target="23" />
+      <module name="Coffe_Machine_Simulator_with_Java.Topics__1_-Fields_and_methods_in_enum-Robot_control.test" target="23" />
+      <module name="Coffe_Machine_Simulator_with_Java.Topics__1_-Fields_and_methods_in_enum-System_of_units" target="23" />
+      <module name="Coffe_Machine_Simulator_with_Java.Topics__1_-Fields_and_methods_in_enum-System_of_units.main" target="23" />
+      <module name="Coffe_Machine_Simulator_with_Java.Topics__1_-Fields_and_methods_in_enum-System_of_units.test" target="23" />
+      <module name="Coffe_Machine_Simulator_with_Java.Topics__1_-Fields_and_methods_in_enum-Theory" target="23" />
+      <module name="Coffe_Machine_Simulator_with_Java.Topics__1_-Fields_and_methods_in_enum-Theory.main" target="23" />
+      <module name="Coffe_Machine_Simulator_with_Java.Topics__1_-Fields_and_methods_in_enum-Theory.test" target="23" />
+      <module name="Coffe_Machine_Simulator_with_Java.util" target="23" />
+      <module name="Coffe_Machine_Simulator_with_Java.util.main" target="23" />
+      <module name="Coffe_Machine_Simulator_with_Java.util.test" target="23" />
     </bytecodeTargetLevel>
   </component>
 </project>
